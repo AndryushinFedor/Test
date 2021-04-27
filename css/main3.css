@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 2rem;
+    background: #000;
+  }
+  
+  svg {
+    display: none;
+  }
+
+  a {
+    color: white;
+}
+  
+  span {
+    font-family: Helvetica, sans-serif;
+    font-size: 8em;
+    color: #fff;
+  }
+  
+  #one {
+    text-shadow: 5px 0 8px rgba(0, 180, 255, 0.8), -5px 0 8px rgba(255, 70, 0, 0.8), 0 0 4px #ffc700;
+  }
+  
+  #two {
+    display: block;
+    position: relative;
+    color: red;
+    mix-blend-mode: screen;
+    -webkit-filter: blur(1px);
+            filter: blur(1px);
+  }
+  #two:after {
+    content: attr(textcontent);
+    display: block;
+    position: absolute;
+    left: 4px;
+    top: 0;
+    color: cyan;
+    mix-blend-mode: screen;
+  }
+  
+  #three {
+    display: block;
+    position: relative;
+    color: red;
+    mix-blend-mode: screen;
+    -webkit-filter: url(#blurX);
+            filter: url(#blurX);
+  }
+  #three:after {
+    content: attr(textcontent);
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transform: scaleX(1.008);
+            transform: scaleX(1.008);
+    color: cyan;
+    mix-blend-mode: screen;
+  }
+  

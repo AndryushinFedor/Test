@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
 body {
     background-color: #000;
     color: #fff;
     align-items: center;
+    font-family: 'Raleway', sans-serif;
   }
   h1 {
     text-shadow:1px 1px 0px #f0f, -1px -1px 0 #0ff;
@@ -13,6 +16,17 @@ body {
     color: white;
 }
   
+.d1 {
+    background-color: #EBECF0;
+    height: 50vh;
+}
+
+h1:first-child {
+    color: black;
+    padding-top: 15vh;
+}
+
+
   h1:hover {
     -webkit-animation: glitch-small 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
             animation: glitch-small 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;

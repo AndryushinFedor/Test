@@ -20,6 +20,7 @@ h1 {
   font-weight: 900;
   text-transform: uppercase;
   position: relative;
+  color: white;
 }
 
 h1::before,
@@ -33,7 +34,6 @@ h1::after {
 h1,
 h1::before,
 h1::after {
-  color: transparent;
   mix-blend-mode: screen;
 }
 
@@ -116,6 +116,11 @@ h1 {
   -webkit-animation: g 1s linear infinite alternate both;
           animation: g 1s linear infinite alternate both;
 }
+
+.d1 {
+    background-color: #EBECF0;
+}
+
 @-webkit-keyframes g {
   0% {
     text-shadow: 2px 1px 0px #0f0;

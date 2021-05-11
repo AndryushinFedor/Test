@@ -34,8 +34,8 @@ h2:first-child {
 
 
 h2:hover {
-  -webkit-animation: glitch-small 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-          animation: glitch-small 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-animation: glitch-small 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation: glitch-small 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 h1:first-child {

@@ -1,0 +1,188 @@
+html,
+body {
+	height: 100vh;
+	margin: 0;
+}
+
+body {
+	background: white;
+	display: grid;
+	place-items: center;
+	font-family: 'Inter', sans-serif;
+}
+
+a {
+	color: black;
+}
+
+h1 {
+	font-size: 10vw;
+	font-weight: 900;
+	text-transform: uppercase;
+	position: relative;
+}
+
+h1::before,
+h1::after {
+	content: attr(data-text);
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+h1,
+h1::before,
+h1::after {
+	color: black;
+	mix-blend-mode: multiply;
+}
+
+h1::before {
+	animation: r 1s linear infinite alternate both;
+}
+
+@keyframes r {
+	0% {
+		text-shadow: -3px 0px 0px #f00;
+	}
+
+	10% {
+		text-shadow: -1px -1px 1px #f00;
+	}
+
+	20% {
+		text-shadow: 5px 0px 0px #f00;
+	}
+
+	30% {
+		text-shadow: -8px 1px 1px #f00;
+	}
+
+	40% {
+		text-shadow: -6px 0px 1px #f00;
+	}
+
+	50% {
+		text-shadow: -6px 0px 1px #f00;
+	}
+
+	60% {
+		text-shadow: 4px 0px 1px #f00;
+	}
+
+	70% {
+		text-shadow: 2px 1px 0px #f00;
+	}
+
+	80% {
+		text-shadow: -1px -1px 0px #f00;
+	}
+
+	90% {
+		text-shadow: 6px -1px 0px #f00;
+	}
+
+	100% {
+		text-shadow: 6px 1px 0px #f00;
+	}
+}
+
+h1 {
+	animation: g 1s linear infinite alternate both;
+}
+
+@keyframes g {
+	0% {
+		text-shadow: -3px -1px 0px #0f0;
+	}
+
+	10% {
+		text-shadow: -7px 1px 1px #0f0;
+	}
+
+	20% {
+		text-shadow: 3px 1px 0px #0f0;
+	}
+
+	30% {
+		text-shadow: 6px -1px 1px #0f0;
+	}
+
+	40% {
+		text-shadow: -6px 1px 0px #0f0;
+	}
+
+	50% {
+		text-shadow: 8px 0px 0px #0f0;
+	}
+
+	60% {
+		text-shadow: 3px -1px 0px #0f0;
+	}
+
+	70% {
+		text-shadow: 2px 0px 0px #0f0;
+	}
+
+	80% {
+		text-shadow: 2px -1px 0px #0f0;
+	}
+
+	90% {
+		text-shadow: 5px 0px 0px #0f0;
+	}
+
+	100% {
+		text-shadow: -6px 0px 1px #0f0;
+	}
+}
+
+h1::after {
+	animation: b 1s linear infinite alternate both;
+}
+
+@keyframes b {
+	0% {
+		text-shadow: -2px -1px 0px #00f;
+	}
+
+	10% {
+		text-shadow: -6px 0px 0px #00f;
+	}
+
+	20% {
+		text-shadow: 1px 0px 0px #00f;
+	}
+
+	30% {
+		text-shadow: 4px -1px 1px #00f;
+	}
+
+	40% {
+		text-shadow: -5px 0px 0px #00f;
+	}
+
+	50% {
+		text-shadow: -7px 1px 1px #00f;
+	}
+
+	60% {
+		text-shadow: -3px -1px 1px #00f;
+	}
+
+	70% {
+		text-shadow: 2px 1px 1px #00f;
+	}
+
+	80% {
+		text-shadow: -3px -1px 0px #00f;
+	}
+
+	90% {
+		text-shadow: -5px 1px 1px #00f;
+	}
+
+	100% {
+		text-shadow: 5px 0px 0px #00f;
+	}
+}

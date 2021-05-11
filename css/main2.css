@@ -12,6 +12,12 @@ body {
     text-align:center;
   }
 
+  h2{
+    text-shadow:1px 1px 0px #00f, -1px -1px 0 #f00;
+    font-size:800%;
+    text-align:center;
+  }
+
   a {
     color: white;
 }
@@ -21,6 +27,17 @@ body {
     height: 50vh;
 }
 
+h2:first-child {
+  color: black;
+  padding-top: 15vh;
+}
+
+
+h2:hover {
+  -webkit-animation: glitch-small 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation: glitch-small 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
 h1:first-child {
     color: black;
     padding-top: 15vh;
@@ -28,8 +45,8 @@ h1:first-child {
 
 
   h1:hover {
-    -webkit-animation: glitch-small 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
-            animation: glitch-small 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    -webkit-animation: glitch-small 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+            animation: glitch-small 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
   }
   
   @-webkit-keyframes glitch-small {

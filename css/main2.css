@@ -7,13 +7,13 @@ body {
     font-family: 'Raleway', sans-serif;
   }
   h1 {
-    text-shadow:1px 1px 0px #00f, -1px -1px 0 #f00;
+    text-shadow:4px 3px 0px #00f, -5px -3px 0 #f00;
     font-size:800%;
     text-align:center;
   }
 
   h2{
-    text-shadow:1px 1px 0px #00f, -1px -1px 0 #f00;
+    text-shadow:4px 3px 0px #00f, -5px -3px 0 #f00;
     font-size:800%;
     text-align:center;
   }
@@ -51,30 +51,30 @@ h1:first-child {
   
   @-webkit-keyframes glitch-small {
     0% {
-      text-shadow:1px 1px 0px #00f, -1px -1px 0 #0f0;
+      text-shadow:4px 1px 0px #00f, -6px -4px 0 #0f0;
     }
     33% {
-      text-shadow:2px 3px 0px #f00, -3px -2px 0 #0ff;
+      text-shadow:3px 3px 0px #f00, -3px -1px 0 #0ff;
     }
     66% {
-       text-shadow:-1px -1px 0px #00f, 1px 1px 0 #0f0;
+       text-shadow:-4px -1px 0px #00f, 5px 2px 0 #0f0;
     }
     to {
-      text-shadow:2px 1px 0px #f00, -1px -2px 0 #0ff;
+      text-shadow:6px 1px 0px #f00, -4px -2px 0 #0ff;
     }
   }
   
   @keyframes glitch-small {
     0% {
-      text-shadow:1px 1px 0px #00f, -1px -1px 0 #0f0;
+      text-shadow:4px 1px 0px #00f, -6px -4px 0 #0f0;
     }
     33% {
-      text-shadow:2px 3px 0px #f00, -3px -2px 0 #0ff;
+      text-shadow:3px 3px 0px #f00, -2px -1px 0 #0ff;
     }
     66% {
-       text-shadow:-1px -1px 0px #00f, 1px 1px 0 #0f0;
+       text-shadow:-4px -1px 0px #00f, 5px 2px 0 #0f0;
     }
     to {
-      text-shadow:2px 1px 0px #f00, -1px -2px 0 #0ff;
+      text-shadow:6px 1px 0px #f00, -3px -6px 0 #0ff;
     }
   }

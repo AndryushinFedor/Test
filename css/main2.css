@@ -7,13 +7,13 @@ body {
     font-family: 'Raleway', sans-serif;
   }
   h1 {
-    text-shadow:4px 3px 0px #00f, -5px -3px 0 #f00;
+    /* text-shadow:1px 1px 0px #00f, -1px -1px 0 #f00; */
     font-size:800%;
     text-align:center;
   }
 
   h2{
-    text-shadow:4px 3px 0px #00f, -5px -3px 0 #f00;
+    /* text-shadow:1px 1px 0px #00f, -1px -1px 0 #f00; */
     font-size:800%;
     text-align:center;
   }
@@ -34,8 +34,8 @@ h2:first-child {
 
 
 h2:hover {
-  -webkit-animation: glitch-small 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-          animation: glitch-small 2.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  -webkit-animation: glitch-small 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+          animation: glitch-small 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 h1:first-child {
@@ -51,30 +51,30 @@ h1:first-child {
   
   @-webkit-keyframes glitch-small {
     0% {
-      text-shadow:14px 11px 0px #00f, -16px -14px 0 #0f0;
+      text-shadow:2px 2px 0px #00f, -2px -2px 0px #0f0;
     }
-    33% {
-      text-shadow:13px 13px 0px #f00, -13px -11px 0 #0ff;
+    30% {
+      text-shadow:3px 4px 0px #f00, -5px -3px 0px #0ff;
     }
     66% {
-       text-shadow:-14px -11px 0px #00f, 15px 12px 0 #0f0;
+       text-shadow:-2px -2px 0px #00f, 2px 2px 0px #0f0;
     }
     to {
-      text-shadow:16px 11px 0px #f00, -14px -12px 0 #0ff;
+      text-shadow:3px 2px 0px #f00, -2px -4px 0px #0ff;
     }
   }
   
   @keyframes glitch-small {
     0% {
-      text-shadow:14px 11px 0px #00f, -16px -14px 0 #0f0;
+      text-shadow:4px 2px 0px #00f, -4px -3px 0px #0f0;
     }
     33% {
-      text-shadow:13px 13px 0px #f00, -12px -11px 0 #0ff;
+      text-shadow:4px 2px 0px #f00, -5px -2px 0px #0ff;
     }
     66% {
-       text-shadow:-14px -11px 0px #00f, 15px 12px 0 #0f0;
+       text-shadow:-2px -3px 0px #00f, 2px 3px 0px #0f0;
     }
     to {
-      text-shadow:16px 11px 0px #f00, -13px -16px 0 #0ff;
+      text-shadow:4px 1px 0px #f00, -4px -2px 0px #0ff;
     }
   }
